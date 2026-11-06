@@ -1,0 +1,9 @@
+# настоящие ключи — никогда не коммитить
+secrets/keys.env
+keys.env
+# исходные данные скачиваются ноутбуком сам
+tom_work/data/
+# служебное
+__pycache__/
+.ipynb_checkpoints/
+*.pyc

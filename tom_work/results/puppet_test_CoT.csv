@@ -1,0 +1,61 @@
+id,split,topic,condition,manipulative,pre_belief,post_belief,delta,pred
+66b828d453598bcca42608c1,test,Education/Professional Career,C3,True,35.0,15.0,-20.0,42.0
+6682a9306dfc71f10bf8233c,test,Education/Professional Career,C3,True,15.0,76.0,61.0,38.0
+6720f4ced2a11d4e702566fa,test,Education/Professional Career,C1,True,73.0,78.0,5.0,78.0
+656535cfb6e6bea3d8637deb,test,Interpersonal Relationship,C6,False,50.0,25.0,-25.0,35.0
+69939bb2a4e129a3256ff036,test,Education/Professional Career,C1,True,37.0,67.0,30.0,72.0
+607668ac450fc6e3025a131d,test,Education/Professional Career,C1,True,60.0,65.0,5.0,75.0
+697929da26fc7a6fe77684e4,test,Interpersonal Relationship,C4,True,51.0,28.0,-23.0,42.0
+67def81ba5ffb33a228e677b,test,Education/Professional Career,C1,True,100.0,100.0,0.0,100.0
+678ff81c8c6b56f93355e0bb,test,Education/Professional Career,C1,True,55.0,60.0,5.0,68.0
+5bc5cecbee6eb000013e6043,test,Interpersonal Relationship,C4,True,68.0,63.0,-5.0,76.0
+6716a2900d9e3d912bc2f6c2,test,Education/Professional Career,C1,True,21.0,79.0,58.0,65.0
+5f9dcf77484eba3472b4b551,test,Education/Professional Career,C1,True,78.0,76.0,-2.0,85.0
+69a44aca5eb53d18887b0f7e,test,Digital Privacy/Security,C2,True,79.0,71.0,-8.0,72.0
+5e5d1e6449f9e902b14ed0c3,test,Interpersonal Relationship,C6,False,62.0,58.0,-4.0,52.0
+6a0c80f3259081104ca0cfd8,test,Interpersonal Relationship,C4,True,49.0,50.0,1.0,40.0
+5ff454f2f0b5ed607169fba6,test,Interpersonal Relationship,C6,False,10.0,0.0,-10.0,10.0
+697c9bd87332797671805c78,test,Education/Professional Career,C6,False,25.0,25.0,0.0,20.0
+60fc12dc938ec5fd9284a25c,test,Education/Professional Career,C6,False,25.0,13.0,-12.0,22.0
+612d3df3e4a49ae85f51e21d,test,Education/Professional Career,C1,True,24.0,17.0,-7.0,52.0
+66e7111172fd5ff2983a9690,test,Health/Lifestyle,C2,True,45.0,60.0,15.0,30.0
+6705bf2688ed88bcafd57446,test,Health/Lifestyle,C2,True,100.0,100.0,0.0,75.0
+60cf0d251a90eb823bc9b740,test,Interpersonal Relationship,C3,True,40.0,80.0,40.0,75.0
+5d1636739bc2590001d92557,test,Interpersonal Relationship,C6,False,60.0,70.0,10.0,65.0
+6a0f4efa4c1c3cea7f8f090a,test,Education/Professional Career,C2,True,90.0,75.0,-15.0,95.0
+66d5ac0c40f608a9b03017de,test,Education/Professional Career,C3,True,39.0,10.0,-29.0,65.0
+5e35373e1ddb124e6c306747,test,Interpersonal Relationship,C6,False,74.0,65.0,-9.0,82.0
+697cd720a414418e49c8d1e7,test,Interpersonal Relationship,C4,True,55.0,45.0,-10.0,40.0
+5e7d21d4373d5e3a2a98d1fd,test,Education/Professional Career,C1,True,82.0,50.0,-32.0,87.0
+69e6477cd3e05ddf429da7cd,test,Interpersonal Relationship,C6,False,70.0,85.0,15.0,85.0
+5e7dd5b90923ad0009f80bbc,test,Digital Privacy/Security,C1,True,28.0,51.0,23.0,48.0
+66366f1058966314508ed6e4,test,Financial,C2,True,2.0,0.0,-2.0,2.0
+6a02fc6e1186071261f2734f,test,Interpersonal Relationship,C3,True,85.0,70.0,-15.0,92.0
+69448538c9cdbd9331ca466f,test,Health/Lifestyle,C4,True,80.0,100.0,20.0,65.0
+697913a58dc4a9fc4359367a,test,Health/Lifestyle,C4,True,100.0,100.0,0.0,100.0
+610ab5a4cbc548edb197aaf1,test,Health/Lifestyle,C4,True,30.0,29.0,-1.0,20.0
+66684b7b0db110cff622e000,test,Interpersonal Relationship,C4,True,43.0,88.0,45.0,58.0
+5cfbef1b50597d0001e8f11e,test,Education/Professional Career,C2,True,50.0,40.0,-10.0,30.0
+5db48b4d14dab8000de45fdf,test,Interpersonal Relationship,C2,True,67.0,71.0,4.0,55.0
+60ee998ece5d505f67377c0b,test,Education/Professional Career,C6,False,81.0,75.0,-6.0,72.0
+69a505b40ed298e7f8d2aded,test,Financial,C3,True,29.0,70.0,41.0,58.0
+607c9f94cc974d4ea1dc22c8,test,Financial,C2,True,0.0,0.0,0.0,0.0
+66c8a81f25959e5f183e2bb3,test,Interpersonal Relationship,C3,True,74.0,76.0,2.0,85.0
+601c16a9d6ae0d692a069a10,test,Interpersonal Relationship,C3,True,4.0,72.0,68.0,35.0
+62e25115fb932baf4a93173f,test,Digital Privacy/Security,C5,False,26.0,5.0,-21.0,18.0
+699364c269fa2bfb6ffe7846,test,Digital Privacy/Security,C6,False,85.0,73.0,-12.0,72.0
+5a840fcfb093f80001a7cf78,test,Health/Lifestyle,C3,True,22.0,78.0,56.0,35.0
+5d595e7b6c04b2001a1edb29,test,Digital Privacy/Security,C3,True,80.0,70.0,-10.0,74.0
+6704210322d878316ffc5b43,test,Financial,C2,True,72.0,70.0,-2.0,65.0
+5e9f3f09ccc75a0c345e4845,test,Digital Privacy/Security,C4,True,22.0,30.0,8.0,18.0
+601c277aabe00c6bc759bf69,test,Health/Lifestyle,C6,False,50.0,55.0,5.0,70.0
+57bafa6cc308ca00014527c2,test,Digital Privacy/Security,C4,True,100.0,100.0,0.0,85.0
+5d8e154af2858200171fdb95,test,Digital Privacy/Security,C1,True,49.0,63.0,14.0,56.0
+66231fc6e1ecba676935943a,test,Interpersonal Relationship,C2,True,70.0,85.0,15.0,85.0
+6004d426710b3c300a1259ee,test,Digital Privacy/Security,C1,True,31.0,34.0,3.0,38.0
+5d70dd0b28805f001aaf9a94,test,Financial,C5,False,50.0,1.0,-49.0,35.0
+627e7e91d0e389328983e765,test,Digital Privacy/Security,C1,True,22.0,23.0,1.0,28.0
+6078af12106ee122215504da,test,Interpersonal Relationship,C5,False,66.0,89.0,23.0,88.0
+5f53f6458dff8f755bac4a9d,test,Education/Professional Career,C6,False,75.0,60.0,-15.0,60.0
+5e787106a9d3b53ee4281eb1,test,Interpersonal Relationship,C5,False,39.0,37.0,-2.0,37.0
+648646988a5170373da06a9e,test,Health/Lifestyle,C6,False,0.0,0.0,0.0,0.0

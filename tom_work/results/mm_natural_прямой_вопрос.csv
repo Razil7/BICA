@@ -1,0 +1,9 @@
+id,source,label,n_turns,manipulative,confidence,alarm_turn,risk_by_turn
+mm_85516235,MentalManip,1,4,True,0.95,4.0,
+mm_85517319,MentalManip,1,5,True,0.95,5.0,
+mm_85518703,MentalManip,1,5,True,0.95,5.0,
+mm_85516485,MentalManip,1,3,True,1.0,1.0,
+mm_85515094,MentalManip,1,3,True,0.85,2.0,
+mm_85516435,MentalManip,0,2,False,0.2,,
+mm_85518146,MentalManip,1,2,True,0.85,1.0,
+mm_85514436,MentalManip,1,5,True,0.85,3.0,

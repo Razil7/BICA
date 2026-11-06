@@ -1,0 +1,95 @@
+# НЕ ПРИМЕНЕНО. Готовый раздел 7.7 ноутбука: MentalManip в естественном составе, сравнение с опубликованными результатами.
+#
+# Как подключить (см. КОНТЕКСТ_ДЛЯ_АГЕНТА.md, раздел 12.3):
+# 1. в tools/build_stage4.py заменить
+#        def load_mentalmanip():
+#    на
+#        def load_mentalmanip(two_speakers=True):
+#    и строку
+#        if len({t["speaker"] for t in turns}) == 2:
+#    на
+#        if turns and (not two_speakers or len({t["speaker"] for t in turns}) == 2):
+# 2. вставить всё, что ниже линии, в tools/build_stage4.py перед строкой «nb.cells += cells»;
+# 3. пересобрать ноутбук: build_stage4.py, затем build_stage5.py;
+# 4. предполётная проверка: py tools/run_nb.py ToM_antifraud.ipynb проверка.ipynb MM_NATURAL_N=8 (около 100 запросов);
+# 5. полный прогон: около 7900 запросов к Gemma, примерно 3.5 часа на трёх ключах.
+# Раздел использует переменные из ячейки 7.6 (agents, dev_rule_runs, llm_det), поэтому RUN_DETECT_TEST должен быть True.
+# ---------------------------------------------------------------------------------------------------------------
+md(r"""
+### 7.7. MentalManip в естественном составе: сравнение с опубликованными результатами
+
+MentalManip (ACL 2024) — признанный набор для детекции манипуляций; на нём опубликованы результаты GPT-4, Llama-2, дообученной RoBERTa и метода IAP. Чтобы наши цифры можно было поставить рядом с ними, здесь выборка берётся **без выравнивания классов и без отбора по длине**: случайные диалоги из нашей тестовой части набора с согласованными метками (`mentalmanip_con`, 69% манипулятивных), и считаются те же метрики, что в статье авторов: precision и recall по классу «манипуляция», точность и macro-F1.
+
+Оговорки о сравнимости:
+
+- авторы делили данные 6:2:2 случайно и своё разбиение не выложили, поэтому тестовые диалоги у нас другие (того же размера — около 580);
+- модель другая (Gemma 4 26B без обдумывания);
+- пороги правила риска выбраны на dev так, чтобы максимизировать ожидаемую точность при доле манипулятивных диалогов, как в наборе.
+""")
+
+code(r'''
+RUN_MM_NATURAL = True
+MM_NATURAL_N = 580            # столько же, сколько в тестовой части у авторов набора (20% от 2915)
+
+PUBLISHED_MENTALMANIP = {     # Wang et al., ACL 2024, табл. 5, набор mentalmanip_con; тестовая выборка авторов
+    "GPT-4 Turbo, без примеров (из статьи)": {"precision": 0.788, "recall": 0.682, "точность": 0.657, "macro-F1": 0.629},
+    "GPT-4 Turbo, с примерами (из статьи)": {"precision": 0.802, "recall": 0.792, "точность": 0.724, "macro-F1": 0.683},
+    "Llama-2-13B, без примеров (из статьи)": {"precision": 0.693, "recall": 0.997, "точность": 0.696, "macro-F1": 0.450},
+    "RoBERTa, дообученная (из статьи)": {"precision": 0.786, "recall": 0.904, "точность": 0.766, "macro-F1": 0.700},
+}
+
+
+def paper_metrics(run, thr=None):
+    """Метрики как в статье MentalManip. Для правила риска метка ставится по порогу thr."""
+    d = run.dropna(subset=["confidence"])
+    if d.manipulative.isna().any():
+        d = apply_threshold(d, thr)
+    pred, y = d.manipulative.astype(bool).values, (d.label == 1).values
+    tp, fp, fn, tn = (pred & y).sum(), (pred & ~y).sum(), (~pred & y).sum(), (~pred & ~y).sum()
+    f1_pos, f1_neg = 2 * tp / max(2 * tp + fp + fn, 1), 2 * tn / max(2 * tn + fn + fp, 1)
+    acc = (tp + tn) / max(len(d), 1)
+    return {"n": len(d), "precision": tp / max(tp + fp, 1), "recall": tp / max(tp + fn, 1), "точность": acc,
+            "точность ±": 1.96 * np.sqrt(acc * (1 - acc) / max(len(d), 1)), "macro-F1": (f1_pos + f1_neg) / 2,
+            "ложные тревоги": fp / max(fp + tn, 1)}
+
+
+def expected_accuracy_threshold(run, prior):
+    """Порог риска, максимизирующий ожидаемую точность при доле манипулятивных диалогов prior (оценка на dev)."""
+    mm = run[(run.source == "MentalManip") & run.confidence.notna()]
+    pos, neg = mm.confidence[mm.label == 1], mm.confidence[mm.label == 0]
+    return max(sorted(set(mm.confidence.round(3)) | {0.0}),
+               key=lambda t: prior * (pos >= t).mean() + (1 - prior) * (neg < t).mean())
+
+
+def mcnemar_p(run_a, run_b, thr_a=None, thr_b=None):
+    """Точный тест Макнемара: различаются ли два агента по числу верных ответов на одних и тех же диалогах."""
+    def correct(run, thr):
+        d = run.dropna(subset=["confidence"]).set_index("id")
+        if d.manipulative.isna().any():
+            d = apply_threshold(d, thr)
+        return d.manipulative.astype(bool) == (d.label == 1)
+    a, b = correct(run_a, thr_a), correct(run_b, thr_b)
+    ids = a.index.intersection(b.index)
+    only_a, only_b = int((a[ids] & ~b[ids]).sum()), int((~a[ids] & b[ids]).sum())
+    return stats.binomtest(only_a, only_a + only_b, 0.5).pvalue if only_a + only_b else 1.0
+
+
+if RUN_MM_NATURAL and RUN_DETECT_TEST:
+    mm_all = load_mentalmanip(two_speakers=False)
+    _pool = mm_all[mm_all.split == "test"]
+    mm_natural = _pool.assign(_h=_pool.id.map(_stable_hash)).sort_values("_h").head(MM_NATURAL_N).drop(columns="_h")
+    _prior = mm_all[mm_all.split == "dev"].label.mean()
+    nat_thr = {k: expected_accuracy_threshold(v, _prior) for k, v in dev_rule_runs.items()}
+    print(f"Диалогов: {len(mm_natural)}, манипулятивных {mm_natural.label.mean():.0%}; реплик в среднем {mm_natural.turns.map(len).mean():.1f}; "
+          f"оценка числа запросов: около {int(len(mm_natural) * (mm_natural.turns.map(len).mean() + 7))}")
+    nat_runs, nat_cost = run_suite(mm_natural, agents, "mm_natural", runner=run_detect, model=llm_det)
+    rows = {"всегда «манипуляция»": paper_metrics(mm_natural.assign(manipulative=True, confidence=1.0)[["id", "label", "manipulative", "confidence"]])}
+    rows.update({k: paper_metrics(v, nat_thr.get(k)) for k, v in nat_runs.items()})
+    nat_table = pd.DataFrame(rows).T
+    nat_table["p против прямого вопроса"] = [np.nan] + [
+        mcnemar_p(v, nat_runs["прямой вопрос"], nat_thr.get(k)) if k != "прямой вопрос" else np.nan for k, v in nat_runs.items()]
+    nat_table = pd.concat([nat_table, pd.DataFrame(PUBLISHED_MENTALMANIP).T]).round(3)
+    nat_table.to_csv(RESULTS_DIR / "table_mentalmanip_natural.csv")
+    display(nat_table)
+''')
+

@@ -1,0 +1,51 @@
+id,split,topic,condition,manipulative,pre_belief,post_belief,delta,pred
+63d95f053f0c6988bd100683,dev,Education/Professional Career,C1,True,72.0,90.0,18.0,82.0
+5f1bea7d46be2a4101756238,dev,Education/Professional Career,C1,True,12.0,24.0,12.0,34.0
+67609801eff43563203f5fd4,dev,Education/Professional Career,C3,True,15.0,6.0,-9.0,32.0
+5b2fef03530770000105a8b2,dev,Digital Privacy/Security,C2,True,30.0,30.0,0.0,22.0
+5ac27ff40527ba0001c1fa60,dev,Interpersonal Relationship,C1,True,75.0,85.0,10.0,88.0
+5eff5f05b92981000a2aed73,dev,Education/Professional Career,C6,False,79.0,70.0,-9.0,72.0
+674345f9aa4a485b13423e9a,dev,Education/Professional Career,C1,True,100.0,100.0,0.0,100.0
+5bd0c7832c109500017a5f79,dev,Financial,C5,False,50.0,70.0,20.0,55.0
+69a21261ab72724183f21a12,dev,Interpersonal Relationship,C5,False,70.0,70.0,0.0,65.0
+69600176b8aa9dc45acdbead,dev,Education/Professional Career,C6,False,50.0,25.0,-25.0,42.0
+699dfe2cf480f1b72de9d87d,dev,Health/Lifestyle,C2,True,100.0,70.0,-30.0,85.0
+69d1745312a2f9a9c393a510,dev,Health/Lifestyle,C6,False,25.0,10.0,-15.0,25.0
+56bd7bf3d4e2180005a86846,dev,Digital Privacy/Security,C1,True,48.0,86.0,38.0,58.0
+5ea2f8ff57400807b6f53ddf,dev,Education/Professional Career,C3,True,30.0,55.0,25.0,65.0
+5d76ac914c93440001c03fd7,dev,Education/Professional Career,C2,True,80.0,90.0,10.0,72.0
+683cbc0c0c2d722831c8bc17,dev,Education/Professional Career,C6,False,100.0,70.0,-30.0,95.0
+66ce5adac1cd4b6037be4a63,dev,Education/Professional Career,C1,True,89.0,100.0,11.0,95.0
+65bd121aa3de43216d1886d4,dev,Interpersonal Relationship,C1,True,46.0,33.0,-13.0,58.0
+5f734ab7a0857803755e97b3,dev,Interpersonal Relationship,C4,True,80.0,90.0,10.0,88.0
+6980f1ea2de14ef29449f0df,dev,Health/Lifestyle,C5,False,84.0,82.0,-2.0,89.0
+6310d1ed7f4d3049ba540f3c,dev,Health/Lifestyle,C1,True,50.0,67.0,17.0,65.0
+629f88c9ab5f85603857f5bb,dev,Interpersonal Relationship,C6,False,60.0,61.0,1.0,52.0
+60bd3949b6f6d9c3453e8def,dev,Health/Lifestyle,C6,False,36.0,29.0,-7.0,38.0
+661c37c372bb8537fe7fe83f,dev,Digital Privacy/Security,C1,True,30.0,28.0,-2.0,48.0
+6630da61208b8b678a1ec63c,dev,Digital Privacy/Security,C1,True,22.0,27.0,5.0,28.0
+6051570d959c53ccacb61130,dev,Education/Professional Career,C3,True,10.0,27.0,17.0,26.0
+69e1199b8f7afa332ba699d8,dev,Interpersonal Relationship,C1,True,50.0,70.0,20.0,62.0
+5e9ca054511e7a1c5c5640e5,dev,Financial,C2,True,28.0,0.0,-28.0,28.0
+694eea83ff77f545d9daceb4,dev,Digital Privacy/Security,C6,False,0.0,73.0,73.0,15.0
+69bee995d1071cdd49ad584b,dev,Digital Privacy/Security,C2,True,15.0,15.0,0.0,22.0
+64135a80ed7a7b6ef5b8262d,dev,Digital Privacy/Security,C5,False,9.0,14.0,5.0,5.0
+612e91f6654fd2227289c863,dev,Interpersonal Relationship,C2,True,40.0,54.0,14.0,52.0
+67a62f17a81104f3f22f32e8,dev,Interpersonal Relationship,C2,True,56.0,65.0,9.0,52.0
+64d50c4b3a44318d98f4f5b2,dev,Education/Professional Career,C1,True,84.0,100.0,16.0,92.0
+6a0f680bfa320f0eedf03fac,dev,Digital Privacy/Security,C4,True,25.0,36.0,11.0,22.0
+584ab3c31f819a00018695e3,dev,Digital Privacy/Security,C4,True,25.0,0.0,-25.0,22.0
+676f3d0f406358d0f37a55e6,dev,Digital Privacy/Security,C6,False,7.0,10.0,3.0,4.0
+688bf0636f0a72507afdadaa,dev,Education/Professional Career,C4,True,33.0,23.0,-10.0,25.0
+5f7760d025023628ce3f4d05,dev,Interpersonal Relationship,C6,False,79.0,67.0,-12.0,84.0
+66ef36768bc403140fa01e35,dev,Health/Lifestyle,C3,True,7.0,12.0,5.0,28.0
+5bf2f728bd9f150001f6cc42,dev,Interpersonal Relationship,C4,True,59.0,20.0,-39.0,52.0
+69793ca29fac44c8c930c6f3,dev,Financial,C3,True,59.0,38.0,-21.0,54.0
+55aa9c8dfdf99b634b427b9a,dev,Health/Lifestyle,C4,True,0.0,0.0,0.0,0.0
+675a2864cf3d9d870639c42b,dev,Interpersonal Relationship,C5,False,44.0,34.0,-10.0,52.0
+5ebd495e39fb6f017b95054a,dev,Digital Privacy/Security,C4,True,69.0,65.0,-4.0,65.0
+67435174b76a747138e8a47a,dev,Health/Lifestyle,C2,True,25.0,70.0,45.0,18.0
+572faa2cad131600100169b5,dev,Education/Professional Career,C4,True,71.0,95.0,24.0,78.0
+69921bde43e69fd5d60ea256,dev,Education/Professional Career,C1,True,25.0,90.0,65.0,38.0
+6697c11cb2a452583e99cd86,dev,Digital Privacy/Security,C4,True,0.0,0.0,0.0,5.0
+67f09ad02524e8b1d810e0a4,dev,Financial,C5,False,71.0,100.0,29.0,68.0
