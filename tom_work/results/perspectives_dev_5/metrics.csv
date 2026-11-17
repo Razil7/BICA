@@ -1,0 +1,6 @@
+method,compared_to,n,mae,r_shift,delta_mae,ci_low,ci_high,improved,worsened
+direct,direct,5,11.8,0.0894383057847526,0.0,0.0,0.0,0,0
+quotes,direct,5,11.2,0.17016598412905468,-0.6,-6.6,6.0,2,1
+trajectory,quotes,5,14.6,0.02400073233103863,3.4,0.0,10.2,0,1
+review,trajectory,5,14.6,0.02400073233103863,0.0,0.0,0.0,0,0
+metamon,review,5,14.6,0.02400073233103863,0.0,0.0,0.0,0,0

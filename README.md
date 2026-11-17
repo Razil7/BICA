@@ -27,3 +27,9 @@ py tools/run_nb.py ToM_antifraud.ipynb ToM_antifraud.ipynb
 Ключи API: скопируйте `secrets/keys.env.example` в `secrets/keys.env` и впишите свои. Пока ноутбук выполняется из кэша, ключи не тратятся.
 
 Исходные данные (PUPPET, MentalManip, CraigslistBargain) в репозиторий не входят: ноутбук скачивает их сам из открытых источников в `tom_work/data/`.
+
+### Пилот He-Now(V) с цитатами
+
+Из корня проекта `python tools/audit_perspectives.py` воспроизводит исходные метрики, ход детектора и форму для разметчиков. Исходные датасеты должны лежать в `tom_work/data/`.
+
+Команда `python tools/run_perspective_pilot.py --size 30` воспроизводит пилот на первых 30 диалогах dev из имеющегося кэша. Для новых запросов укажите `--budget N`, где N — предел HTTP-попыток, включая повторы. Ключи берутся из тех же источников, что в ноутбуке. При нескольких ключах диалоги делятся между ними, каждый диалог закрепляется за одним ключом. Результаты находятся в `tom_work/results/perspectives_dev_30/`, проверки минимальных пар — в `tools/test_perspectives.py`.
