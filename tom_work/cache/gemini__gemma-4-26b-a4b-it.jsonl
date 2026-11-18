@@ -11165,3 +11165,18 @@
 {"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 353, "out_tok": 11, "key": "59f890d6d34d41f35e2a1933a587bf5d1cf6f3757bead23d83af756e7e46cf45"}
 {"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 329, "out_tok": 11, "key": "d9b77a39065b1ada3e5634e940d86e3f622702a60781b5be31a6dbc64d3064d4"}
 {"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 421, "out_tok": 11, "key": "e5565e6c4ecab0bc916b5cb5fea8805bdd03ef2ea4f99c0554427f1e7c2c2845"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 438, "out_tok": 11, "key": "c581d0fd6f0a60424986d547e5a72e9a55d04920e38ccf507930947a7f928a8b"}
+{"text": "[\n  {\n    \"post_belief\": 85.0\n  }\n]", "in_tok": 843, "out_tok": 21, "key": "519310e3323c0b74c2cf25789a4afec30ec7b90554c5701545b66ced71e07339"}
+{"text": "{\"post_belief\": 25.0}", "in_tok": 1509, "out_tok": 11, "key": "606b8bda136a451b4cf908649d463dc266edebd4ce1c2886591c865268bd4ee2"}
+{"text": "{\"post_belief\": 15.0}", "in_tok": 1524, "out_tok": 11, "key": "46dfe2f3a80243d64d1942fcf8299b8328eec6c880751f8621e04c5681bfb7ee"}
+{"text": "{\n  \"post_belief\": 25.0\n}", "in_tok": 1561, "out_tok": 15, "key": "29ed706ddc5499d52c5c84c84688b95da22d0c083a52161d55ea05b22df8dc2a"}
+{"text": "{\"post_belief\": 15.0}", "in_tok": 1596, "out_tok": 11, "key": "1f6f95e7a8f4fe7bccec745a261e75adf89cbe4a4c70d166fdbc2598a2f0b25f"}
+{"text": "{\"post_belief\": 28.5}", "in_tok": 1582, "out_tok": 11, "key": "8fc457f5061670de5d93ceec01172c9dc847771996aca46134eeb9f1c495ec7c"}
+{"text": "{\"post_belief\": 35.0}", "in_tok": 1597, "out_tok": 11, "key": "f9cddc052ddc3d4ea11af2c25d4e3e9fc8c5875c7683e198e015ade0cae02d9f"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 245, "out_tok": 11, "key": "ee4b08d48a302b3ca9ba8f1360fce2f93b388afc8fe4e7c746a84953b45c2fbf"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 320, "out_tok": 11, "key": "799f6b5ee49f7545ba9e92ab96ad48d88cb566fee62a20693c5a02ed7a28def6"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 483, "out_tok": 11, "key": "2d4e8cf42dd080d5752b0ef0e4720284b8196394f919c39822be4bf1f8f3f380"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 466, "out_tok": 11, "key": "2709ca01f96061b675dd138f6faaea8ecde23fbf8c39e54d758f2075b2e089e6"}
+{"text": "{\"post_belief\": 45.0}", "in_tok": 1331, "out_tok": 11, "key": "dbc2a4bfe9b36f3563177ab9931b4176216cce529a231d4ecfb720dea9c977af"}
+{"text": "{\"post_belief\": 75.0}", "in_tok": 905, "out_tok": 11, "key": "17ccb37f8abc08519f276dcde8a6fb88c5076b515c829fa47ddfca044b31bb7e"}
+{"text": "{\"post_belief\": 45.0}", "in_tok": 1378, "out_tok": 11, "key": "8f76bf925226c9b7133a3feacc975a677ffdbe6230325d5f4abf94a155c947c7"}

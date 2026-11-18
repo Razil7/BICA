@@ -87,20 +87,21 @@ def run(size, budget, workers=3):
         return record
 
     try:
-        # Один поток на ключ. Кэш, счётчики расхода и блокировка записи общие.
-        # Назначение по номеру диалога сохраняется и при повторах запроса.
+        # Назначение ключа сохраняется при повторах. Независимые диалоги
+        # могут продолжаться, пока один запрос ожидает повтора после HTTP 503.
         keys = list(dict.fromkeys(model.keys)) or [None]
-        shards = [list(enumerate(rows, 1))[i::len(keys)] for i in range(min(size, len(keys)))]
-
-        def predict_shard(item):
-            i, shard = item
+        clients = []
+        for key in keys:
             worker = copy.copy(model)
-            worker.keys = [keys[i]] if keys[i] else []
-            return [(position, predict(position, row, worker)) for position, row in shard]
+            worker.keys = [key] if key else []
+            clients.append(worker)
 
-        with ThreadPoolExecutor(max_workers=min(workers, len(shards))) as pool:
-            batches = list(pool.map(predict_shard, enumerate(shards)))
-        records = [record for _, record in sorted(entry for group in batches for entry in group)]
+        def predict_dialogue(item):
+            position, row = item
+            return predict(position, row, clients[(position - 1) % len(clients)])
+
+        with ThreadPoolExecutor(max_workers=min(workers, size)) as pool:
+            records = list(pool.map(predict_dialogue, enumerate(rows, 1)))
     finally:
         elapsed = monotonic() - start
         if used:
