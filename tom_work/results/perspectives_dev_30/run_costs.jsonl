@@ -1,0 +1,2 @@
+{"finished": "2026-11-18T08:13:34.652731+00:00", "attempts": 100, "seconds": 914.73, "budget": 100, "http_statuses": {"200": 36, "503": 55}, "new_responses": 36}
+{"finished": "2026-11-18T08:20:07.583412+00:00", "attempts": 35, "seconds": 340.74, "budget": 35, "http_statuses": {"200": 9, "503": 22}, "new_responses": 9}

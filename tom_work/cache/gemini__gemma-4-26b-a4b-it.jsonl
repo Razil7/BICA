@@ -11120,3 +11120,48 @@
 {"text": "{\"stance\": \"disagrees\", \"quote\": \"the stress consumes me sometimes, and my wife and kids can tell when I'm having a bad day due to work (which is so frequent, it's depressing)\"}", "in_tok": 489, "out_tok": 48, "key": "76d29ae4ccc4f7edaec8fe915ad6d2569d85d651169c10812aaa7c1c825a9e21"}
 {"text": "{\"post_belief\": 50.0}", "in_tok": 883, "out_tok": 11, "key": "caa716a23b96a2e9dafe642dfd577f5895439d09732c6af5c096266459e8ee21"}
 {"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 366, "out_tok": 11, "key": "76e07adffeb9a185933c2d27365d28f659cabd22ebc0dfffc0184350f1cf786b"}
+{"text": "{\n  \"post_belief\": 95.0\n}", "in_tok": 1449, "out_tok": 15, "key": "fee68bcc17abc056266ba1de7348358cb2cd5be1370e633fc6609d3c37b02291"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 166, "out_tok": 11, "key": "af315ad139bf366640f33d8446b49b41aabbafeda8bddb4ea925e562335ff7e3"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 248, "out_tok": 11, "key": "c1263c58f50c8d8487802e148cd50150e163381acdd19500cfb1b999bcc0013c"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"I would be much happier with easier, preferably part-time work over the hustle-and-grind-for-more-money-than-I-can-even-spend lifestyle\"}", "in_tok": 534, "out_tok": 51, "key": "a95c40bb9d847b314d73ffbe41b60567d25ed524be01f65f4d1268ed14a4b14a"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"if I work hard enough and make enough wise investments, I will one day (hopefully soon) be able to live the lifestyle that I want\"}", "in_tok": 433, "out_tok": 40, "key": "7eb4719cd75492df204cdcdd12bf73f9a3a8dd8bc7e04fb1625baf12860747dc"}
+{"text": "{\"post_belief\": 45.0}", "in_tok": 1935, "out_tok": 11, "key": "08465f3ccee3f5762805ea56d119fe9e0c2a708c8bd1323b11bf2dcc856cb69f"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 564, "out_tok": 11, "key": "fbb3118ad8f3a7649e61991322f8bace00d50c5612f420527d8620a3685016bf"}
+{"text": "{\n  \"post_belief\": 95.0\n}", "in_tok": 1511, "out_tok": 15, "key": "cc0e71d485bfca213342a021c25927aeb2db57fa660efd6c301a8b18014579d5"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"ok\"}", "in_tok": 246, "out_tok": 13, "key": "057d6a9983d14cb6168b35ad36c253fea599748f022b39bc0979a58e47415889"}
+{"text": "{\"post_belief\": 35.0}", "in_tok": 1997, "out_tok": 11, "key": "c1fff5fbe9526666819b1ba0d352b500a328faeab5f490160443519556477311"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 496, "out_tok": 11, "key": "15036255c23abe75304e6eddc2bc3cfd03808b637410a825da6a6e8a5e74b963"}
+{"text": "{\"post_belief\": 35.0}", "in_tok": 2018, "out_tok": 11, "key": "bc37e966b3d566786d0359bb760b13d8d1471d442edc9a3d70ace4b395068cf2"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 405, "out_tok": 11, "key": "29ba59166a7b7b1c4f795d2184fb28237d4a4633612d0f8ee75a48da02675787"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 722, "out_tok": 11, "key": "7adb955a5e53d021f2b13b8272bfb3f14cf08383ebb185be324005836dd4be59"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 775, "out_tok": 11, "key": "428f79ada2c5dff7ce4d371c4b8b724d9717d2b6379d9a5a3a68a826c755b50d"}
+{"text": "{\"post_belief\": 65.0}", "in_tok": 2558, "out_tok": 11, "key": "8746c4ac5d4a771e531c8c0dd43c31cbe7f79ba8bc2010b7e802417c41036233"}
+{"text": "{\"post_belief\": 35.0}", "in_tok": 2057, "out_tok": 11, "key": "1fc63796e184adae69fc73621f20691203075901ae1a814a2d07f8f90a114221"}
+{"text": "{\n  \"stance\": \"disagrees\",\n  \"quote\": \"most seem mainly interested in either my data or using my data to make money\"\n}", "in_tok": 281, "out_tok": 35, "key": "75a1eaf61d9cb6b8ad2550e6f09d3b4025d316927fe8c05fbee9c5b601f2068b"}
+{"text": "{\n  \"stance\": \"disagrees\",\n  \"quote\": \"most of the companies I have dealt with are not completely open about that stuff, it also comes across as more of a selling point then them trying to by \\\"good\\\"\"\n}", "in_tok": 313, "out_tok": 54, "key": "02e96d049b7f50a71f317ed70d8b1b06dafbd1308e2cb52ba19a9a68b7d44c87"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 352, "out_tok": 11, "key": "c4ef5d34cd673f12e0b77db926ee62d7e7117dd3618d6d8e558e277b8a315b73"}
+{"text": "{\"post_belief\": 65.0}", "in_tok": 2630, "out_tok": 11, "key": "778e92f9dbf74f7786d2a7520ed0c2858003d40dee7615cf350d11d8b62f38ac"}
+{"text": "{\n  \"stance\": \"agrees\",\n  \"quote\": \"I could lie and say i got better grades\"\n}", "in_tok": 277, "out_tok": 28, "key": "fedc3bc536491987fe8b9666abb8e06f6e90aaa1db59fb9e48c8056f549ab270"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 367, "out_tok": 11, "key": "6d6ea0a6cfc6ba0e526ed24c558b03b81da64e0adececa8c82d5316c899f6eed"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 256, "out_tok": 11, "key": "77b47eb45b3f5065f4c0d815945d6360e5d228daf2b0b0772a232f9e70d057ab"}
+{"text": "{\n  \"post_belief\": 30.0\n}", "in_tok": 1092, "out_tok": 15, "key": "df2517afe63e4ca9c2a13f766251245c9a2c6e7bf20bdacde4171be5ee8ae01e"}
+{"text": "{\n  \"post_belief\": 18.5\n}", "in_tok": 1144, "out_tok": 15, "key": "4b717c446757c9f996eb62ccb1539b16376f3b6db61838eda65ccc81518cc444"}
+{"text": "[\n  {\n    \"post_belief\": 65.0\n  }\n]", "in_tok": 1585, "out_tok": 21, "key": "903ee044969b737f9f6223a2aadbadce41bb294307c756e12d9c0cd28839bace"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 288, "out_tok": 11, "key": "150e587d226d94fa2b55b8f216e3fcd6a3f3d8f8a4ec1e05b840de1eda958849"}
+{"text": "{\n  \"post_belief\": 88.8\n}", "in_tok": 1667, "out_tok": 15, "key": "272855b7142da12623306260d2ac593913358a94d714de62dd905f269cf4ab30"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"I definetly agree\"}", "in_tok": 249, "out_tok": 17, "key": "5ac0e807a24813066a0d65799c8531467745b222ec82f407f01398d633f39aeb"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 329, "out_tok": 11, "key": "b07bbaaa74b258ce770fa9e92c6a02d3b446a1d656911bafaffbf59ff201e397"}
+{"text": "{\"stance\": \"accepts_action\", \"quote\": \"yes, please\"}", "in_tok": 238, "out_tok": 17, "key": "bd58280ddd41d28adb995fab0fee4f1e76ab4fbf8a5cc1325abaabdb5055a270"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"ok these tips are great\"}", "in_tok": 302, "out_tok": 17, "key": "6bb05bae058ae76ea542fcc4cdc5bf70fb1e412709880f57229c5d2506b2b580"}
+{"text": "{\"post_belief\": 65.0}", "in_tok": 667, "out_tok": 11, "key": "e829c7d4c5e88f8654052e0e95fd50898f47ee6abde9169fc21a1a19f1a497a3"}
+{"text": "{\"post_belief\": 62.0}", "in_tok": 719, "out_tok": 11, "key": "d7ed20dbf5dfa64ab7e250973b4fca04e455bae4cdd5030f8a4c6383b3786660"}
+{"text": "{\"post_belief\": 65.0}", "in_tok": 740, "out_tok": 11, "key": "092a2fbf3814c3caa56469cf16e5c442564b3d35ca3afe1667884bbf6fceadae"}
+{"text": "{\"post_belief\": 65.0}", "in_tok": 762, "out_tok": 11, "key": "08e3f8eb369613382230474c8b2ed369867544e0ade82e1130c3e4176e07a030"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 380, "out_tok": 11, "key": "f7739e5a591c7d31ba3fd9cad96a85e67fbf9f0b0c0b89b2cae2a6ebd0349a4e"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"Wow never really thought of it like that\"}", "in_tok": 282, "out_tok": 20, "key": "fc6d544a6326f20de8c6a61ae0ad29c560304d6a6ece0792cbecf8fb6e376ab2"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 567, "out_tok": 11, "key": "127325668f3f5124983b32ad7830894932f0d69ecc6fb9d01bebfb425110219f"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 268, "out_tok": 11, "key": "a5887bdfc834968134a923efd9e3f40ba02e8ec73a823bdf7a32256e0abb97c0"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 316, "out_tok": 11, "key": "63a2a7d56d2e8b0166d80a6334c3b708d8cf3fdf3cd5e10580bbb1972977e5c4"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 353, "out_tok": 11, "key": "59f890d6d34d41f35e2a1933a587bf5d1cf6f3757bead23d83af756e7e46cf45"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 329, "out_tok": 11, "key": "d9b77a39065b1ada3e5634e940d86e3f622702a60781b5be31a6dbc64d3064d4"}
+{"text": "{\"stance\": \"unclear\", \"quote\": \"\"}", "in_tok": 421, "out_tok": 11, "key": "e5565e6c4ecab0bc916b5cb5fea8805bdd03ef2ea4f99c0554427f1e7c2c2845"}

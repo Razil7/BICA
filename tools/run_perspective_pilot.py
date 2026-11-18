@@ -39,6 +39,9 @@ def run(size, budget, workers=3):
     statuses = Counter()
     lock = threading.Lock()
     next_attempt = 0.0
+    run_started = datetime.now(timezone.utc).isoformat()
+    dest = ns["RESULTS_DIR"] / f"perspectives_dev_{size}"
+    dest.mkdir(exist_ok=True)
 
     def limited_post(*args):
         nonlocal used, next_attempt
@@ -49,6 +52,10 @@ def run(size, budget, workers=3):
                 wait = next_attempt - monotonic()
                 if wait <= 0:
                     used += 1
+                    # При остановке процесса finally может не выполниться.
+                    # Запись до отправки даёт верхнюю границу фактического расхода.
+                    with (dest / "attempts.jsonl").open("a", encoding="utf-8") as ledger:
+                        ledger.write(json.dumps({"started": run_started, "attempt": used}) + "\n")
                     next_attempt = monotonic() + 1.5
                     break
             sleep(wait)
@@ -70,8 +77,6 @@ def run(size, budget, workers=3):
             raise RuntimeError("Нужен новый ответ модели: указан нулевой бюджет")
         model._request = cache_only
     rows = list(ns["pilot"].head(size).itertuples(index=False))
-    dest = ns["RESULTS_DIR"] / f"perspectives_dev_{size}"
-    dest.mkdir(exist_ok=True)
     start = monotonic()
 
     def predict(position, row, worker):
@@ -99,7 +104,7 @@ def run(size, budget, workers=3):
     finally:
         elapsed = monotonic() - start
         if used:
-            record = dict(finished=datetime.now(timezone.utc).isoformat(), attempts=used, seconds=round(elapsed, 2),
+            record = dict(started=run_started, finished=datetime.now(timezone.utc).isoformat(), attempts=used, seconds=round(elapsed, 2),
                           budget=budget, http_statuses=dict(statuses), new_responses=int(model.stats().get("api_calls", pd.Series(dtype=int)).sum()))
             with (dest / "run_costs.jsonl").open("a", encoding="utf-8") as f:
                 f.write(json.dumps(record) + "\n")
@@ -111,6 +116,12 @@ def run(size, budget, workers=3):
     (dest / "observations.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
     usage = model.stats()
     usage[["calls", "in_tok", "out_tok"]].to_csv(dest / "usage.csv")
+    # После успешного пилота точка продолжения должна отражать готовый набор.
+    counts = [len(record["observations"]) for record in records]
+    checkpoint = frame.assign(dialogue=range(1, len(frame) + 1), ready=True,
+                              observations=counts, total=counts)
+    checkpoint.to_csv(dest / "checkpoint.tmp", index=False)
+    (dest / "checkpoint.tmp").replace(dest / "checkpoint.csv")
     print(metrics.round(3).to_string(index=False))
     print(usage)
 
