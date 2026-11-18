@@ -49,7 +49,7 @@ def design():
     return queries, plan
 
 
-def collect(model, keys, queries, budget, dest):
+def collect(model, keys, queries, budget, dest, systems=None, keep_invalid=False):
     lock = threading.Lock()
     used, next_time = 0, 0.0
     original_post = model._post
@@ -90,12 +90,16 @@ def collect(model, keys, queries, budget, dest):
         client = clients[i % len(clients)]
         prompt, validate = queries[key]
         try:
-            result = client.call_json(prompt, system=SYSTEM, validate=validate, retries=1,
+            result = client.call_json(prompt, system=(systems or {}).get(key, SYSTEM), validate=validate, retries=1,
                                       max_tokens=256, tag=key)
             return key, result
         except BudgetStop:
             return key, None
-        except (ValueError, RuntimeError) as exc:
+        except ValueError as exc:
+            if keep_invalid:
+                return key, {"invalid": str(exc)}
+            return key, None
+        except RuntimeError as exc:
             print(f"{key}: {type(exc).__name__}", flush=True)
             return key, None
 
@@ -140,6 +144,20 @@ def evaluate(plan, answers, model):
     return rows
 
 
+def local_model(ns, formats, schema_identity):
+    options = {"reasoning_effort": "none", "chat_template_kwargs": {"enable_thinking": False}}
+    model = ns["LLM"]("lmstudio", "google/gemma-4-e4b", keys=["localhost"], min_interval=0,
+                      extra={**options, **schema_identity})
+
+    def local_post(key, prompt, system, json_mode, temperature, max_tokens):
+        body = dict(model=model.model, temperature=temperature, max_tokens=max_tokens,
+                    messages=[dict(role="system", content=system), dict(role="user", content=prompt)],
+                    response_format=formats[prompt], **options)
+        return ns["requests"].post("http://127.0.0.1:1234/v1/chat/completions", json=body, timeout=120)
+    model._post = local_post
+    return model
+
+
 def main(budget, local=False):
     os.chdir(Path(__file__).resolve().parents[1])
     ns = setup(load_puppet=False)
@@ -148,19 +166,9 @@ def main(budget, local=False):
     ns["CACHE_DIR"] = dest
     queries, plan = design()
     if local:
-        local_options = {"reasoning_effort": "none", "chat_template_kwargs": {"enable_thinking": False}}
         formats = {p: response_format(STANCE_FIELDS if validate is parse_stance else DECISION_FIELDS)
                    for p, validate in queries.values()}
-        model = ns["LLM"]("lmstudio", "google/gemma-4-e4b", keys=["localhost"], min_interval=0,
-                          extra={**local_options, "decision_schema": DECISION_FIELDS, "stance_schema": STANCE_FIELDS})
-
-        def local_post(key, prompt, system, json_mode, temperature, max_tokens):
-            body = dict(model=model.model, temperature=temperature, max_tokens=max_tokens,
-                        messages=[dict(role="system", content=system), dict(role="user", content=prompt)],
-                        response_format=formats[prompt], **local_options)
-            return ns["requests"].post("http://127.0.0.1:1234/v1/chat/completions",
-                                       json=body, timeout=120)
-        model._post = local_post
+        model = local_model(ns, formats, {"decision_schema": DECISION_FIELDS, "stance_schema": STANCE_FIELDS})
     else:
         model = ns["LLM"](ns["MAIN_PROVIDER"], ns["MAIN_MODEL"], keys=ns["API_KEYS"][ns["MAIN_PROVIDER"]],
                           min_interval=ns["MIN_INTERVAL"], extra=ns["MAIN_EXTRA"], tpm=ns["MAIN_TPM"])

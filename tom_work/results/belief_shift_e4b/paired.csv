@@ -1,0 +1,4 @@
+method,n,pairs_both,direction_correct,false_updates,invalid,tokens
+legacy,24,7,10,3,1,5964
+direct,24,5,11,6,0,4487
+grounded,24,2,11,5,4,8661

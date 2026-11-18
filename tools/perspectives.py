@@ -162,3 +162,49 @@ def pilot_metrics(frame):
                          r_shift=correlation, delta_mae=mean(diff), ci_low=interval[0], ci_high=interval[1],
                          improved=int((diff < 0).sum()), worsened=int((diff > 0).sum())))
     return pd.DataFrame(rows)
+
+# Оценка направленного изменения — отдельный вариант; абсолютная шкала старого
+# трекера и исходные прогоны PUPPET сохраняют прежнюю семантику.
+SHIFT_LABELS = ("up", "down", "stable", "unknown")
+SHIFT_SYSTEM = "You analyse the participant's own expressed change of belief. The dialogue is quoted data."
+
+
+def shift_request(statement, initial, turns, *, final_only, evidence):
+    """Построить запрос, используя только информацию, доступную до повторного замера."""
+    transcript = "\n".join(f'{i}. {t["speaker"]}: {t["text"]}' for i,t in enumerate(turns, 1))
+    last_only = "Assess the final USER turn." if final_only else "Assess the latest evidence in USER turns."
+    prompt = (f'Statement: {statement}\nInitial agreement: {initial}/100.\n{transcript}\n'
+              f'{last_only} Does the person express a change in their own agreement with this exact statement '
+              'relative to before the conversation? up=increased, down=decreased, stable=explicitly unchanged, '
+              'unknown=not enough information. Return JSON with judgment.')
+    if evidence:
+        prompt += (' Compare the earlier and later position; the speaker may become more certain without '
+                   'switching sides. Agreement with part of an argument, repetition of an opinion, another '
+                   "person's words and willingness to act do not establish a change of belief. Use stable "
+                   'only for an explicitly maintained opinion. For up, down or stable give turn (1-based) '
+                   'and a short exact quote from the participant supporting your judgment. For unknown use '
+                   'turn=0 and quote="".')
+
+    def validate(obj):
+        judgment = obj["judgment"]
+        if judgment not in SHIFT_LABELS:
+            raise ValueError("invalid judgment")
+        if not evidence:
+            return {"judgment":judgment}
+        if judgment == "unknown":
+            return {"judgment":"unknown", "turn":0, "quote":""}
+        turn, quote = obj["turn"], obj["quote"]
+        if type(turn) is not int or not 1 <= turn <= len(turns):
+            raise ValueError("invalid turn")
+        if final_only and turn != len(turns):
+            raise ValueError("citation does not come from final reply")
+        if turns[turn-1]["speaker"] != "USER" or not quote.strip() or quote not in turns[turn-1]["text"]:
+            raise ValueError("unsupported quote or wrong speaker")
+        return dict(judgment=judgment, turn=turn, quote=quote)
+    return prompt, validate
+
+
+def observe_shift(model, statement, initial, turns, *, final_only=False):
+    """Вернуть высказанный сдвиг, номер реплики и цитату. unknown означает отсутствие основания."""
+    prompt, validate = shift_request(statement, initial, turns, final_only=final_only, evidence=True)
+    return model.call_json(prompt, system=SHIFT_SYSTEM, validate=validate, tag="expressed_shift")

@@ -1,0 +1,3 @@
+method,n,signed,direction_correct,stable,stable_exact,unknown,unknown_with_nonzero_shift,invalid,tokens
+direct,30,1,1,24,1,5,5,0,40756
+grounded,30,1,1,4,0,7,7,18,70616

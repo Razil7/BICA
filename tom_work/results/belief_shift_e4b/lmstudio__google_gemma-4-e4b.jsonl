@@ -1,0 +1,156 @@
+{"text": "{\"judgment\": \"up\"}", "in_tok": 173, "out_tok": 7, "key": "c26e9031c3c32096da12d686a14f4d7a3da9300db56cf4c447aa72400a917618"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"Я понял, почему ты предлагаешь сравнить тарифы\"}", "in_tok": 209, "out_tok": 24, "key": "c05108cde216a9a5f3dbfa2fc19fc29cc2bd8ec2c539284107fc0ac1b3567fee"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"Я понял, почему ты предлагаешь сравнить тарифы.\"}", "in_tok": 263, "out_tok": 30, "key": "d1256d7f5e46bb06a44d8d5651d00299b1528b0528560f74559dd3a7b77f2757"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"сравнение тарифов кажется мне полезным\"}", "in_tok": 225, "out_tok": 23, "key": "16ccc0989db562bb9ebb2e393cac1a965dfeb41d91138d69f78648de4b1d3f2d"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 189, "out_tok": 7, "key": "197ff654ea66c2f8ed81aefff0edefbdb86dd0039aede3031c998c24cc7baeab"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"Теперь сравнение тарифов кажется мне полезным\"}", "in_tok": 279, "out_tok": 28, "key": "8c8e5020da7a46c1310b5e61312e448b9726eab6bb998b9f0dce2d1f672f661a"}
+{"text": "{\"stance\": \"accepts_action\", \"quote\": \"Ладно, я посмотрю таблицу испытаний сегодня вечером\"}", "in_tok": 211, "out_tok": 28, "key": "5d7cd03413b2f07c20d04c7964cfebe25e71256acea2db7d2104fa5407d6ec4c"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 173, "out_tok": 7, "key": "cd554920896296aec7f388d91332cf2874507b96a989b4e79c68a99fa7810f7f"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"Ладно, я посмотрю таблицу испытаний сегодня вечером.\"}", "in_tok": 263, "out_tok": 32, "key": "34628bfbf83b6c184d1f1eca2a5fa816edfd669bd446546da481e7fd02af01dd"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"пример уже пошатнул мою уверенность в цене как показателе качества\"}", "in_tok": 222, "out_tok": 28, "key": "e5b7e51171a6aa326350845513f759235c1badb914f39ebe5b24aef0f6971f7a"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 184, "out_tok": 7, "key": "bd50f6fce892a7a5159c2c451d8a55cb8487d8d97a664f2a2eabbf265c325d30"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"пример уже пошатнул мою уверенность в цене как показателе качества.\"}", "in_tok": 274, "out_tok": 33, "key": "79554dd86667bc5a49dcf53168686fec04d45468a4e7d5270b233bdbbeeb6568"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"отзывы всё так же помогают мне выбирать\"}", "in_tok": 213, "out_tok": 22, "key": "f2467289203cc6ed9ac03f1644a6e54889902fe468429e9308871459b36cd831"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 176, "out_tok": 7, "key": "2e0c090106e51dea94d5df6abf38725a2d63fcc7ea3035d85d8e67fd268d1b3d"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 3, \"quote\": \"Условия разные, но отзывы всё так же помогают мне выбирать. Моя оценка прежняя.\"}", "in_tok": 266, "out_tok": 37, "key": "14e168dbfe65e019f087136436f4c2f26cbdc9d7d5fcdc00a356ed152358b143"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"меньше верю в их пользу при выборе\"}", "in_tok": 218, "out_tok": 23, "key": "65da303aea6f2233c130fda11585b60398a8a732fba100e5f68a899810e50541"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 181, "out_tok": 7, "key": "21f668ab12fb67165cb9d9d9f420246186e4b4d59e9fe2e54f663b538cf6fcf0"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"Я всё ещё читаю отзывы, но теперь меньше верю в их пользу при выборе.\"}", "in_tok": 271, "out_tok": 36, "key": "9fac3fd5c86212999fb591422976a0707319c9acf0e5cef38ddae395403e61ce"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"\\u001eКороткие занятия полезнее\\u001d\"}", "in_tok": 212, "out_tok": 30, "key": "c779b1f9b5ff4f28663ca2a1de2ae617f5d7e0084b62dc86d2a4355d5970af3c"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 178, "out_tok": 7, "key": "60fd50350925cf185142e44071553405036cdab928906a551a6d8725b3672d00"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"\\u001eКороткие занятия полезнее\\u001d\"}", "in_tok": 268, "out_tok": 35, "key": "215195a8bf2148cc45b9695d17e62213a51c5b97234a6f576aa92f7d25882616"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"Сейчас ставлю разнесённые по неделе занятия выше\"}", "in_tok": 220, "out_tok": 25, "key": "20009c45423b1ab241341d4a8ce1a9c302bf29090b5410d49a02b30eb7d00b80"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 186, "out_tok": 7, "key": "bdfde621c3e6bd4615c66c2a374dfa57483b422e0527ce91e40f0ea92e677c31"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"\\u001eКороткие занятия полезнее\\u001d\"}", "in_tok": 268, "out_tok": 35, "key": "2e0979546c832cb26c7aacdf81c5cc22c2e51d58ac971737721166b79f2a7509"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"Сейчас ставлю разнесённые по неделе занятия выше.\"}", "in_tok": 276, "out_tok": 31, "key": "aa015a61bd3ad0d70efacc46de3e1c36179866e8f596147e0ca0d39a57d42a02"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"По-прежнему так думаю\"}", "in_tok": 211, "out_tok": 18, "key": "4f21e10026aff67265f94c8aee5cab8ff4f15c967becad632d373b2058b7d78c"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 173, "out_tok": 7, "key": "e00dda238ddaaa4a7ba3b0a7f27a815fcec8160541b8b97699754c26b56d6d82"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 3, \"quote\": \"Да, я и до нашего разговора считал это удобным. По-прежнему так думаю.\"}", "in_tok": 263, "out_tok": 38, "key": "c3b79683bcab6bcd49c7913af7b4393285409e05cfacbe736613919f17f5fe9c"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"Теперь автопродление кажется мне менее удобным\"}", "in_tok": 220, "out_tok": 24, "key": "6b12022249c6f30f43bb91a88918d41a6ed21f9cc8f1e6a0dcfd998ccff8e284"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 182, "out_tok": 7, "key": "8a0b96385bbe5a4ad9114a52b3338f8f9e7e8c514913594456e504373ceb902c"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"Теперь автопродление кажется мне менее удобным.\"}", "in_tok": 272, "out_tok": 29, "key": "85effee88d2539836ea7d547b722c9372589bd1c784dda6adc9d6796330b5486"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"Не соглашусь на первое предложение\"}", "in_tok": 206, "out_tok": 21, "key": "0cd680daf730c642b640aa03d13fd9dfb1fb748b54f5e123ac9dd963ba349c2a"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 170, "out_tok": 7, "key": "d80001c7b390795f6f9774b15cf1b51020651f4d00e0c78c0f8ff7c206b191ae"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 260, "out_tok": 17, "key": "46827d227f95beafcfb1db82951903f8d3fbc9f4c5b8b6f286ff3fc6ac52e231"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"сомневаюсь ещё сильнее\"}", "in_tok": 213, "out_tok": 20, "key": "e537bfe2ba40455693360cc054da2c66a5fa47674bf2b91d444bdc5b7285174c"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 177, "out_tok": 7, "key": "7f912632e01418bbdf099a736a6339abaef6d62a76c8148de18b2adf66d292b8"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 260, "out_tok": 17, "key": "7abc24b3a740daa989b24d161d18aa7cf1077fad388f8395a00a649a38265e07"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"Я и раньше сомневался в выгоде первого предложения, а теперь сомневаюсь ещё сильнее.\"}", "in_tok": 267, "out_tok": 40, "key": "c88485ffdd6689f4564568f0e3a497a1dd6941dcf052650c4b00d0f3654b7f98"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"Соглашусь, что задачи бывают сложнее ожидаемого\"}", "in_tok": 206, "out_tok": 25, "key": "b9ea8006cd1d5d01edb3e87a14684f35b1d975ac6444a33cb888ae0ab0fe3657"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 170, "out_tok": 7, "key": "14cd5bb091c030e0d580ec7b8d807e6c69d02c5d0cec46fe43297abcecd98be7"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 260, "out_tok": 17, "key": "b02220a70ecc0f7ef9784b4006478a1a541bbeac1bb50345ec787ad1e252ff9e"}
+{"text": "{\"stance\": \"disagrees\", \"quote\": \"на его помощь со сроками я рассчитываю меньше\"}", "in_tok": 226, "out_tok": 24, "key": "c14c204775e1a5df4e670dbecb106034f0dbbd2435485c424b04881594402cf2"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 190, "out_tok": 7, "key": "a4cee2f26e9f8612d4f0b5044fb6647ad531192c86d63745fa441310ce7ff9e4"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 260, "out_tok": 17, "key": "e48f0aecaa3ba97dfc9b495d8eadb20ce68260a39b56851201d26f3d7d676da2"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"на его помощь со сроками я рассчитываю меньше, чем до разговора.\"}", "in_tok": 280, "out_tok": 34, "key": "34092309f4eb8e98bc192246ecf4dd30369280eb0086e93e5642294e4f5fc39d"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"Я вас услышал\"}", "in_tok": 212, "out_tok": 17, "key": "6adfc4ad66ef937bb4919919d3019758e9b9ec4bd66cda0feafded91c0683454"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 180, "out_tok": 7, "key": "e26fc9049eda64b93851739a25cee46931e80e6b7026fe1de20701c3ecd5dd3a"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 270, "out_tok": 17, "key": "345dc65edd228025e255d100063cc98b69ef1847a6d33a637d2dfa68a6f5a791"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"С этой стороны я примеры не рассматривал\"}", "in_tok": 219, "out_tok": 22, "key": "ae633291b18f7cfcf15966d1d1855aeae8fce48beac82e2fb4f89ac3894392d2"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 187, "out_tok": 7, "key": "0d2540ce72a40e521e10e5c132291611bf07a1999b54a9f1d1a5a7190565d2cd"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 270, "out_tok": 17, "key": "fd1fee0eb56780f96a88c11a4eadf80b89fb08d91539e2c1fa8967e6cf359f60"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"С этой стороны я примеры не рассматривал: теперь вижу от них больше пользы.\"}", "in_tok": 277, "out_tok": 36, "key": "eb7520461ac3eaebb1008855c5076be846b535052c8e2400e7b7a53645e87528"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"Я считал пробную поездку полезной и до этого примера\"}", "in_tok": 210, "out_tok": 27, "key": "161c6ee9692ccab67d8038a5cf4ce5a27b6ad7d2a0c449fe3d3df9607e1fb212"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 173, "out_tok": 7, "key": "2d0b8541756821332bd1254fd768b6245dec301428aada6b56d386b4425c2aa9"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 3, \"quote\": \"Я считал пробную поездку полезной и до этого примера. Всё осталось как было.\"}", "in_tok": 263, "out_tok": 38, "key": "288710689908a8737e64754cb9908233478505c7644b3c60a3e5414a7e2bae58"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"Я и так считал её полезной\"}", "in_tok": 211, "out_tok": 21, "key": "867d8a29b288ca2efe4bc8973c021c5e3abddb85249b72938e5c1c6f82ee9526"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 174, "out_tok": 7, "key": "ad48a7ba7fc7ca0440152d59c72202f104e57d3bfbb90e270e1e7fd105ebd5c6"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 264, "out_tok": 17, "key": "b2b2bdc02954cbd707e66c43f5c59b0e572ad153aee2423773b239f0cf67e1a0"}
+{"text": "{\"stance\": \"accepts_action\", \"quote\": \"для демонстрации я установлю более простое приложение\"}", "in_tok": 209, "out_tok": 25, "key": "a38194dbf1aa043d7877c70382828ff29d4049c6c8bb91d0410d6e9b313ba4df"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 178, "out_tok": 7, "key": "4977b3d3fc70205d542bd5fbcb4bb60492e0d111fa6af13d5f8c19e2f219d55a"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 3, \"quote\": \"Я и так считал её полезной, но пример с посадкой укрепил моё мнение.\"}", "in_tok": 264, "out_tok": 39, "key": "36fe8d0451cd579831fc7d7e985c1c74fbeb26d12d7733a854a4a2db6acef6b6"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"Хорошо, для демонстрации я установлю более простое приложение.\"}", "in_tok": 268, "out_tok": 33, "key": "1785c76dfc9e74bb883d531ef5d90705c35f20c4c4d2efef0228536b791c2dce"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"в длинном списке больше пользы\"}", "in_tok": 224, "out_tok": 20, "key": "1225f784cfb1c1e3713dbd8a9a1b6413ee00e27b0a0feda3be1a51a26da4a607"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 193, "out_tok": 7, "key": "162f4691d2ef8e975025f1b9821e44a3b0f0ea8e254fb22f8d70f97963ec7724"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"Теперь вижу в длинном списке больше пользы.\"}", "in_tok": 283, "out_tok": 28, "key": "111678ec216e179f171364ca7868c257a0dcf43b17ff01b4feb50cbf91a98b45"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"Если говорить о проверке, я согласен\"}", "in_tok": 211, "out_tok": 22, "key": "bf53bcfd47a53ff451290af5053965ed5a9a1102158c1e5e6797301a462b7ad0"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 177, "out_tok": 7, "key": "531d5156a4c607dbd142c171c800a7fc803d95642c80e79c8c7b483376fd58ea"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"Если говорить о проверке, я согласен, что сообщение написано уверенно.\"}", "in_tok": 267, "out_tok": 34, "key": "86f21baa1fa91885955196def8cd4856f3d00360f0d5622801758f2e019c0020"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"Этот пример заставил меня выше оценить её пользу\"}", "in_tok": 217, "out_tok": 24, "key": "cdfc11defdc258ee243caafaaaa2a00339c0f0bba92c96c9de7e1b8c0b2c6342"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 183, "out_tok": 7, "key": "0b173d3a83ad138d811b9f8203ec38447fe9acafb4c9b46cc17f62ac6862d654"}
+{"text": "{\"judgment\": \"up\", \"turn\": 3, \"quote\": \"Этот пример заставил меня выше оценить её пользу.\"}", "in_tok": 273, "out_tok": 30, "key": "f13097b903ea442b4e4c3446c05eb3843622d66475fb1ab6078d38d06f0d0412"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"\\\"Я теперь меньше верю в популярность\\\"\"}", "in_tok": 217, "out_tok": 22, "key": "36f5fa3e74f8438275d6b5b8afcf860b09afead046f97f3422fdd618eb37d917"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 185, "out_tok": 7, "key": "8e22624a4eb080b4711e0dd87eaafcef6e514fa0ba80e0f146effcd350da614f"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"Я теперь меньше верю в популярность\"}", "in_tok": 275, "out_tok": 26, "key": "be63f4fd85cc2de50ecd3d74ede8c65ab328e50574ec5bb25d8a1ed47f736b1f"}
+{"text": "{\"stance\": \"acknowledges\", \"quote\": \"\\\"Я теперь меньше верю в популярность\\\"\"}", "in_tok": 217, "out_tok": 22, "key": "f647eb3700f550388c05fba0f1258d7744f5be9d34b482524ad1a5120e64b401"}
+{"text": "{\"stance\": \"agrees\", \"quote\": \"я сам уже не считаю число слушателей таким весомым аргументом за качество\"}", "in_tok": 219, "out_tok": 29, "key": "933c9e6e6e091e50671942c4c978c09529f85db93bec2e8304596e71f7e768f8"}
+{"text": "{\"judgment\": \"down\"}", "in_tok": 187, "out_tok": 7, "key": "96868f33e612cdc05d2b1e4dc1e31747ea8c58148f8ca6af2012dbc3ec2dd7ca"}
+{"text": "{\"judgment\": \"down\", \"turn\": 3, \"quote\": \"После этого примера я сам уже не считаю число слушателей таким весомым аргументом за качество.\"}", "in_tok": 277, "out_tok": 39, "key": "0d4893bbe2983e85b1eb1ce58eaa772637f5b5b4f1c803df5d0a9b320e8ac8e1"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1545, "out_tok": 7, "key": "409159fe6b647533985252b0f2f06cb578493a18192deeb1b513cc31aff967c9"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1635, "out_tok": 17, "key": "222c6f5d8694e17b8f44c86602d8e138c79157733126d38c11a9b1b00c4f924d"}
+{"text": "{\"judgment\": \"unknown\"}", "in_tok": 866, "out_tok": 7, "key": "eaae6cca7641cc51bf61c239fe35dc79c5d359d36fd1863609bfbacc10c93fda"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 956, "out_tok": 17, "key": "e72dcdc9def2165b226379a3b9021a804aace839ce0f4360f7084fada6544966"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1635, "out_tok": 17, "key": "cbaf4830eae9e57d5b65776ad25d135bebe112eb0411979e3fc18f635a698139"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1125, "out_tok": 7, "key": "d0999531de0121b769b43f08ee5cf24fbcc521c51421aa147965344b8123a020"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 956, "out_tok": 17, "key": "17db800eda91993b95c8cb194fc6371a7bc937b8cff343cec52f231768e0996b"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1215, "out_tok": 17, "key": "6cfc87a23724f4b17de812fcae6b545d28b6e33161b49054426a6992c795ff88"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1254, "out_tok": 7, "key": "6db0695a88405076d229523e9e3c8f7a27866f5173ed66b0d467ab294926cbfd"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1344, "out_tok": 17, "key": "46affd90de4725d26a947a78899d640a591c08e9305e01ea9d7e336bd5fb7b8b"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1215, "out_tok": 17, "key": "2e92c003a89b4d17ad43ad09e873983202f83f9cde8fcd4dac6815b008398a54"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 2224, "out_tok": 7, "key": "0113a57845b68ae6c5c0a912b90c88d85081cc34c0d282101350bb28458897b5"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 14, \"quote\": \"Is an OU degree credible and taken seriously by employers\"}", "in_tok": 2314, "out_tok": 29, "key": "2c11f0a864fa156c8cf229bbbcab11753dcde50fd62bb50c7bbd372ab744e92a"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1437, "out_tok": 7, "key": "f6bf9d052228fbeffb8b9a6baea998cdb4eb00039712c3eb798cdd791d1d47f5"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1527, "out_tok": 17, "key": "1cc8bb2270c2a5d9042e0a271b90d580132d534e5eebe08a5129385c4112f226"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 14, \"quote\": \"Is an OU degree credible and taken seriously by employers\"}", "in_tok": 2314, "out_tok": 29, "key": "5a9a4b800fedda38c1f2112ed864e6048bfd499a317d61f63251829bf644cc2a"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1407, "out_tok": 7, "key": "69565d5bd8c26d36ddaa7ce5b4b100f027a7ea076ab8ad3862fff7ea2a2d5eea"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1527, "out_tok": 17, "key": "2e30a6c17a000d1b53043329afe735adbbf25ceacc77620a4ffbb2acdcd681d4"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1497, "out_tok": 17, "key": "72629ba3df8f542b817ad9d3e82ab0304716890cae4eda43f3e5c5c198d9fdc8"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 2904, "out_tok": 7, "key": "38ac4eb064a3797db1bfe5a253b20ca48d91b547f05d9b02a9dbef42c59d5889"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1794, "out_tok": 7, "key": "873c4cbf1f991bf822d6f33d741841178e4a5a3b5b1756a56c0281213672ac53"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 17, \"quote\": \"Yes it looks to me like I should put £2.5k in 10 year gilts and £2.5k in balanced fund/etf, is that sensible?\"}", "in_tok": 2994, "out_tok": 57, "key": "67e2700ee102739e5295b56716b0e78e26946b15d070b429c8f18e73c9da4ac0"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 12, \"quote\": \"With something like this, how does one \\\"cash out\\\"?\"}", "in_tok": 1884, "out_tok": 32, "key": "d043398bf25dffd4f831e3a4a17b46cc9d1b967a23069585cb1205733a80fc82"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 2041, "out_tok": 7, "key": "7fa7cf8427fb3ac7ab2b055b26835301b77de64de49994f09b0f9b1757f07790"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 12, \"quote\": \"With something like this, how does one \\\"cash out\\\"?\"}", "in_tok": 1884, "out_tok": 32, "key": "aa0c5a84ff169dc1150e63267e873589d2c4f7d6824532c029234703e98a012a"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 15, \"quote\": \"I know you're trying to help, but these anrent really answers for what I'm looking for. I dont miss annonymous or stragner connections - I miss the people I love, and I miss my favorite person most of all\"}", "in_tok": 2131, "out_tok": 68, "key": "ca1adb377a6e6a28fdab2e58d8a9f4e9386603486e904185c793219182e23d88"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 2105, "out_tok": 7, "key": "aaaf709474009ef155e3f51211c19481ffe44f13b3248a69d910a9771ae10e95"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 2195, "out_tok": 17, "key": "892fdc5d8466c6a98ad96db4689f711d3624b51e02a0e610956a8974bac1a927"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1278, "out_tok": 7, "key": "d279da392d8f91895de9cefd6dbd49bb84fe10ff258195e8abb5242c71bb2f97"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 2195, "out_tok": 17, "key": "791dd7ec62e8a9a7ad8fa97d1d5fb5147d6adba13e39c440b04bad1479b16229"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 15, \"quote\": \"I know you're trying to help, but these anrent really answers for what I'm looking for. I dont miss annonymous or stragner connections - I miss the people I love, and I miss my favorite person most of all\"}", "in_tok": 2131, "out_tok": 68, "key": "f190286e497b74092bb6143026e45ae90b4e95253b0e30ad564e17b84c7a242e"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1368, "out_tok": 17, "key": "476ce62ce0d703908d5fb5c8787a28f031ec55f1c0d7ce2513a18b0430af98b4"}
+{"text": "{\"judgment\": \"unknown\"}", "in_tok": 559, "out_tok": 7, "key": "2943b5ca9e7dc62442aaf1af176fda4e5acccddfdc637041fe04a47be0748b6b"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 649, "out_tok": 17, "key": "1dad301c9c3cd3fb06ef680aff6349659cbca41bc6639424d3cf094f7cb97f0b"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1368, "out_tok": 17, "key": "2f21ead1b86b125e19df412dac6856da4d7f93ab3a4f2df8ee3f3469b9909fab"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1031, "out_tok": 7, "key": "dfb5d857f3593c223599dd85e2ac14b3809b42183f861882faa5255335522898"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1121, "out_tok": 17, "key": "e6e80ec83e23abe3555834e8bc9b0221fffcb27bc06eca1e8551b6c9e28f8259"}
+{"text": "{\"judgment\": \"unknown\"}", "in_tok": 1258, "out_tok": 7, "key": "f97e2d27792788e00c39ab2fa29336e25db29491898581665ad353421482e515"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1348, "out_tok": 17, "key": "adc441a1e511080a514a9e2346ae7ad755449da9c462ba132bcadb961009d5e6"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1121, "out_tok": 17, "key": "98868d9b83fa43ec9439464193145d577c9ba1fc1e5bba74757d898b150fb11d"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 834, "out_tok": 7, "key": "98a74d6358230f892975505255bf15c11584c9580307ab9e4754659e089dd4bd"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 924, "out_tok": 17, "key": "7bfb5a2db9e7e6ae713be0972abe680b9b946b931c9b29715e5c1a29c6cb1de2"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 845, "out_tok": 7, "key": "ff368cac98f65ac1b0d50c9656f5f2f317a0040fa3c5fffd87cbbbc03b0afd88"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 935, "out_tok": 17, "key": "eadcdac08b727495f3a867f658af77d3e04a2f4ce23085b4d1926ca0e907f98e"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 924, "out_tok": 17, "key": "3c020bda6ada55bfba7f5cb0af732e429d661a62f93ddb08d0ca25d6eac263eb"}
+{"text": "{\"judgment\": \"unknown\"}", "in_tok": 1271, "out_tok": 7, "key": "a1bd0fad6c3986cc2ade5a9c7294e0e4fdd9dedf5ecafe9ea79dce6b822fdf65"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 935, "out_tok": 17, "key": "8c70e927c74ae1ab49b5c9d0bfaaa54bc1dd17c54bc7faa35b67b7ad22c192e5"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1361, "out_tok": 17, "key": "d19066314b34dfc9435977c7ba9d2c3480944fbfad3635d3a97f45ef38f510f6"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 973, "out_tok": 7, "key": "06af6f2108920c87ad8c32003ef017ac34bfc2f4afb112efb459f935d06c361d"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1063, "out_tok": 17, "key": "a077ce2598aea824333b1a039f493162a459422f4442d32f467509ff73c1a630"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 794, "out_tok": 7, "key": "85bdc100b9a45c50a71921992a12d30ebf285e6ed2bcaadcd2a1fe7e7ed36485"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 884, "out_tok": 17, "key": "092d4abddc92482ca894304e0d032b54f6b8c1f09c769e248a74eaf0d8654b59"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 2122, "out_tok": 7, "key": "f810522afd3b375938150474762c2e8406a73d561b7e561e4f52fa04cce5b90b"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 2212, "out_tok": 17, "key": "7e7a79cb6dc90969ab54c7afb4a75f85d12288c14abfb0e7eaa75935a9a7b878"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 884, "out_tok": 17, "key": "de8c03db2b1f9e75541602f7dcddd2e610a63d28b7623e4445b951be3eea78ef"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1053, "out_tok": 7, "key": "b00cab4f336cececa8c4a2177aeea83064dd5f7dcbee154753e6df71285754e8"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 2212, "out_tok": 17, "key": "396ecbdf3d6333699f1cf26cb4d062082735ae4804748f40edd901d937dc7105"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 9, \"quote\": \"i feel like its worth it a lot of the time but i feel like rising prices of everythign offsets that a large portion\"}", "in_tok": 1143, "out_tok": 44, "key": "f56ce5645b14d966951b714a5d3a43786036f79bf9174b4685f3370e4949a9e5"}
+{"text": "{\"judgment\": \"unknown\"}", "in_tok": 1378, "out_tok": 7, "key": "0e7b0ea0cf0f352f219d0b0f5f9548a931d5948ff474e6334efd5815c3709036"}
+{"text": "{\"judgment\": \"unknown\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1468, "out_tok": 17, "key": "b85819a3a3377ea39c214031005b7bf182df81d5c4bee7e3b2d736e23c283230"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 725, "out_tok": 7, "key": "43903eb28d395750d4e14807d3cb2abfdf7a8e6d86b6913af54eae225a522410"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 17, \"quote\": \"i agree\"}", "in_tok": 815, "out_tok": 21, "key": "331fb7c94201e578c5b38a40e5b7b2c6e389f3c91eca2869e258408756e9cdc0"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1227, "out_tok": 7, "key": "92c8af13a59aad63c7bb043f171c8b44444a298258988a3e4cf52c72d9a3f02e"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1317, "out_tok": 17, "key": "a4c2daf4650121572189e2cf9a6e71bc08616db75db6aaa1ce8ac7546cdfd0fb"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 884, "out_tok": 7, "key": "9229e90b95860e779f1409dac6d4e54308fea97a4c849f7da435bb1df52e5712"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 974, "out_tok": 17, "key": "218961b3860283ed15dfe84c432eb789883c83d1d4a277f78beec59dea5881b7"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1317, "out_tok": 17, "key": "a42f1eae18c10b2b15cde2571354d7252aaac9253a22ad334970f3378df2bdc3"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1046, "out_tok": 7, "key": "045b5b258fcfd49c959ba0b06d6678728ba7a18803054b56757194c45fe7a317"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 974, "out_tok": 17, "key": "2c6822203d609009291bf75e45993f546e9eb8d7ec1394b6d4e3d0c171bdf8bc"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1136, "out_tok": 17, "key": "35a5a8f2a5c003b47bbbb526abd63cae6c51ced19ad6e32909ce68dc1233549d"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1526, "out_tok": 7, "key": "a9922a53d6b1435cf893d531b3af8a69f177a202547a8dbaa0b40e98d1f5e450"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 15, \"quote\": \"Ok I still think I'm right on this one but thanks for the chat!\"}", "in_tok": 1616, "out_tok": 36, "key": "ef71af0401372de06d69bdfcc87e9cd6381f94436081f752dd66bcbca473c1d9"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1136, "out_tok": 17, "key": "baeac35b7ee1a18f9740f871387f361f01dc67f6e022520557311746dd37e8a7"}
+{"text": "{\"judgment\": \"stable\"}", "in_tok": 1487, "out_tok": 7, "key": "e502acfb6ca1697b7759fe0f730bb3e7c3cc99e9a0e7a155eb83a112e0d75f1c"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1577, "out_tok": 17, "key": "ddce82b002e3a98f2fd20320522e32df960476fd8770bd638746b236f604ed56"}
+{"text": "{\"judgment\": \"up\"}", "in_tok": 1553, "out_tok": 7, "key": "f8c42235d7e6c313a24b7d24ed6030a2768d1f3ef1bdfdf66330f9d87a619469"}
+{"text": "{\"judgment\": \"up\", \"turn\": 17, \"quote\": \"sure\"}", "in_tok": 1643, "out_tok": 20, "key": "b41d4be4f2a8d52bb0b75ec2ea42666ab4b85e2769b5d6bed6fa8bb459f1e048"}
+{"text": "{\"judgment\": \"stable\", \"turn\": 0, \"quote\": \"\"}", "in_tok": 1577, "out_tok": 17, "key": "2622ffcf6cbd2bdfbaf820a46ebc22e81159a30ffe75281d88a4cc287c2dd1df"}
