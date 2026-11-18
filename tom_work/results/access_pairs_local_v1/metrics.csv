@@ -1,0 +1,4 @@
+method,n,pairs,world_ok,access_ok,stance_ok,public_ok,exact_pairs,public_pairs,leaks,private_cases,calls,tokens
+direct,16,8,11,7,8,9,0,3,8,8,16,8080
+summary,16,8,11,8,8,9,0,2,8,8,16,9016
+controller,16,8,16,16,14,14,7,7,0,8,12,1660

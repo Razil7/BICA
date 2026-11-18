@@ -17,13 +17,14 @@ import pandas as pd
 from perspectives import pilot_metrics, pilot_predictions
 
 
-def setup(extra_cells=()):
+def setup(extra_cells=(), *, load_puppet=True):
     # Используем те же определения, ключи кэша и разбиение, что в выполненном ноутбуке.
     cells = json.loads(Path("ToM_antifraud.ipynb").read_text())["cells"]
     sources = ["".join(c["source"]) for c in cells if c["cell_type"] == "code"]
     ns = {}
+    data_cells = ("PUPPET_URL =", "SPEAKER_NAMES =") if load_puppet else ()
     for prefix in ("import os, sys, re", "GEMINI_API_KEY =", "def _read_env_file",
-                   "class QuotaExhausted", "PUPPET_URL =", "SPEAKER_NAMES =", *extra_cells):
+                   "class QuotaExhausted", *data_cells, *extra_cells):
         matches = [s for s in sources if s.startswith(prefix)]
         if len(matches) != 1:
             raise RuntimeError(f"Не найдена единственная ячейка {prefix!r}")
